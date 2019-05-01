@@ -1,0 +1,133 @@
+body{
+  font-family: 'Architects Daughter', cursive;
+  color: #fff;
+}
+
+#boardFrame {
+  width: 410px;
+  height: 420px;
+  background-color: #362919;
+  margin: 10% auto;
+  border-radius: 15px;
+  position: relative;
+  -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  padding: 0;
+}
+
+#boardPanel {
+  padding: 0;
+  background-color: #645230;
+  margin: 0 auto;
+  width: 360px;
+  height: 330px;
+  box-shadow: 0 -30px 50px #493C23 inset, 0 0 15px #372D1B inset;
+  position: relative;
+  overflow: hidden;
+}
+
+#playerMode h1, #playerChoice h1 {
+  font-size: 200%;
+  margin-top: 40px;
+}
+
+#playerChoice, #playerMode {
+  display: block;
+  position: absolute;
+  right: 5px;
+  z-index: 2;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#playerChoice {
+  display: none;
+}
+
+#chooseOne, #chooseTwo, #chooseX, #chooseO {
+  display: block;
+  color: #fff;
+  font-size: 21px;
+  margin-top: 30px;
+}
+
+#reset {
+  font-size: 16px;
+  margin: 0;
+  padding: 0; 
+  color: #B5B5B5;
+  position: absolute;
+  right: 40px;
+}
+#chooseOne:hover, #chooseTwo:hover, #chooseX:hover, #chooseO:hover, #reset:hover {
+  color: #fff; 
+  border-radius: 20px;
+  border: 2px dashed #BBD851;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#chooseOne:hover, #chooseTwo:hover {
+  width: 50%;
+  margin: auto;
+  margin-top:30px;
+}
+
+#chooseX, #chooseO {
+  font-size: 40px;
+  display: inline;
+}
+
+#backToBasic {
+  display: block;
+  color: #fff;
+  font-size: 21px;
+  margin-top:30px;
+  
+}
+
+#backToBasic:hover {
+  color: #CEA79B; 
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.game-box { 
+  font-family: 'Permanent Marker', cursive;
+  font-size: 60px;
+  color: #BBD851;
+  cursor: pointer;
+  width: 120px;
+  height: 110px;
+  margin: 0;
+  padding: 10px;
+}
+
+.middle-col {
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;}
+
+.middle-row {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;}
+
+#gameGrid {
+  display: none;
+  margin-left: 15px;
+}
+
+#scoreBoard {
+  margin: 0;
+  padding: 10px 0 0 0;
+  color: #B5B5B5;
+  height: 50px;
+}
+.score-holder {
+  display: none;
+}
+
+.score-split {
+  border-left: 2px solid #B5B5B5;
+}
